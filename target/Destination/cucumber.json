@@ -1,0 +1,136 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#This is to check test result for Pass test case"
+          }
+        ],
+        "line": 5,
+        "name": "Login functionality exists",
+        "description": "",
+        "id": "cucumber-report;login-functionality-exists",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3611350140,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I have opened the browser",
+            "match": {
+              "location": "Annotation.openBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7040816112,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I open Ebay website",
+            "match": {
+              "location": "Annotation.goToFacebook()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 26074,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Ebay should exist",
+            "match": {
+              "location": "Annotation.ebay_should_exist()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5755487534,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I search for sony tv",
+            "match": {
+              "location": "Annotation.search_For_Sony_TV()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3429248703,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Check search result",
+            "match": {
+              "location": "Annotation.check_search_result()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9536675509,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Select random product",
+            "match": {
+              "location": "Annotation.select_random_product()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5812303125,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Click AddToCart",
+            "match": {
+              "location": "Annotation.click_AddToCart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3746392477,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Click Proceed Checkout",
+            "match": {
+              "location": "Annotation.click_Proceed_Checkout()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5790277213,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Continue As Guest",
+            "match": {
+              "location": "Annotation.continue_As_Guest()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Cucumber Report",
+    "description": "",
+    "id": "cucumber-report",
+    "keyword": "Feature",
+    "uri": "com/automation/EbayAutomation/EbayFeatures.feature"
+  }
+]
